@@ -9,7 +9,9 @@ $(document).ready(function () {
 		// GET REQUEST FROM THE API
 		const userInput = $searchInput.val().trim().toLowerCase();
 		// MODAL BETTER ALTERNATIVE HERE FOR NOW THIS IS OKAY
-
+			if(userInput === '') {
+				alert('Please enter a movie to search')
+			};
 		
 		$(".container").empty();
 
