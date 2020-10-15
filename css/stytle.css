@@ -1,0 +1,82 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: white;
+	font-family: "Lora", serif;
+	font-family: "Roboto", sans-serif;
+	font-family: "Source Code Pro", monospace;
+	background-image: url(../images/background4.jpg);
+	background-repeat: inherit;
+	background-position: center;
+	background-size: cover;
+	width: 100%;
+	height: 100vh;
+	color:black;	
+}
+
+/* Jumbotron */
+#header {
+	background-color: white;
+	text-align: center;
+}
+
+/* H1 P tags */
+#title h1 {
+	font-size: 60px;
+	color: blanchedalmond; 
+}
+
+#title p {
+	font-size: 30px;
+	color: blanchedalmond;
+}
+/* NavBar */
+
+#navBar {
+	color: blanchedalmond;
+	font-size: 40px;
+}
+
+/* Search bar */
+
+#searchBar {
+	color: black;
+}
+
+/* Search Bar */
+.form-control-borderless {
+	border: none;
+}
+
+.form-control-borderless:hover,
+.form-control-borderless:active,
+.form-control-borderless:focus {
+	border: none;
+	outline: none;
+	box-shadow: none;
+}
+
+#title {
+	text-align: center;
+}
+
+/* MODAL */
+
+
+
+/* FOOTER */
+
+#main-footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: #292b2c;
+	color: blanchedalmond;
+	text-align: center;
+}
+
