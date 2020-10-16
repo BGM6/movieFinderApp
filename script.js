@@ -15,7 +15,7 @@ $(document).ready(function () {
 		
 		$(".container").empty();
 
-		const URL = ` http://www.omdbapi.com/?s=${userInput}&apikey=${apiKey}`;
+		const URL = ` https://www.omdbapi.com/?s=${userInput}&apikey=${apiKey}`;
 		$.ajax({
 			url: URL,
 			method: "GET",
